@@ -1,0 +1,4 @@
+C:\Users\ASUS\Desktop\Tema 2\Tema2\Debug\Tema2.exe
+C:\Users\ASUS\Desktop\Tema 2\Tema2\Debug\Tema2.pdb
+C:\Users\ASUS\Desktop\POO Lab 20\Tema 2\Tema2\Debug\Tema2.exe
+C:\Users\ASUS\Desktop\POO Lab 20\Tema 2\Tema2\Debug\Tema2.pdb

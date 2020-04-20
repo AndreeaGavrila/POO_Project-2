@@ -1,0 +1,22 @@
+#pragma once
+#include "Complex.h"
+
+class Vector {
+protected:
+	int dim;
+	Complex* v;
+public:
+	Vector();
+	Vector(int);
+	Vector(const Vector&);
+	virtual ~Vector();
+
+	Vector& operator=(const Vector&);
+	friend ostream& operator<<(ostream&, const Vector&);
+	friend istream& operator>>(istream&, Vector&);
+
+	virtual void push(const Complex&) = 0;
+	virtual Complex pop() = 0;
+
+	bool eImaginar() const;
+};
